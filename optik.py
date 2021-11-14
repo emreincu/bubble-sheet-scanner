@@ -1,9 +1,7 @@
 import cv2
 import numpy as np
 from imutils.perspective import four_point_transform
-import math
-from imutils import contours as imCont
-import imutils
+
 
 class BubbleSheetScanner:
     questionCount = 40
