@@ -148,8 +148,6 @@ frame = cv2.resize(image, (600, h), interpolation=cv2.INTER_LANCZOS4)
 
 cv2.imshow('result', frame)
 cv2.waitKey(0)
-cv2.imshow('result', frame)
-cv2.waitKey(0)
 
 cannyFrame = bubbleSheetScanner.getCannyFrame(frame)
 cv2.imshow('result', cannyFrame)
